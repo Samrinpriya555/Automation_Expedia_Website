@@ -16,8 +16,6 @@ driver.find_element(By.XPATH, '//*[@id="uitk-tabs-button-container"]/li[2]/a/spa
 
 
 
-
-
 driver.find_element(By.CLASS_NAME,'uitk-faux-input').send_keys('Berlin (BER - Brandenburg)')
 print("entered data")
 
